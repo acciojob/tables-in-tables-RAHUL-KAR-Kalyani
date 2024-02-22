@@ -1,1 +1,39 @@
 /* Your CSS Code here. */
+/* Your CSS Code here. */
+table,thead,tbody,th,td,header{
+	border: 1px solid black;
+	text-align:center;
+}
+header{
+	font-weight:bolder;
+	width:50%;
+}
+
+.nested-1{
+	align-items:right;
+	width:50%;
+}
+
+.nested-2{
+	align-items:left;
+	width:50%;
+}
+
+.nested-3{
+	align-items:left;
+	width:50%;
+}
+
+.nested-4{
+	align-items:left;
+	width:50%;
+}
+.nested-3 .underline{
+	text-decoration:underline;
+	color:violet;
+	
+ }
+.nested-4 tbody td{
+	background-color:black;
+	color:white;
+}
